@@ -1,0 +1,31 @@
+NOTE: This version is slightly late but includes a working double stepping mechanism for three rotor machines.
+
+If lateness is unacceptable, please disregard this version.
+---
+
+Compiles successfully and runs normally.
+
+Calling machine_create() produces a machine with an unchanged plugboard, rotors of types I, II, and III, and a reflector of type B.
+
+---
+Notes on my Enigma implementation
+---
+
+My implementation behaves almost identically to the original Enigma machine. It has presets for the original rotor types I, II, III, IV, and V and reflector types B and C.
+
+
+Double stepping mechanism implemented for three rotor machines.
+
+---
+Using the provided test program
+---
+
+To compile the test program, please do:
+    $ make test
+
+The test program creates and sets a machine with the following initial settings:
+    - plugboard unchanged (straight mapped)
+    - rotors I, II, III
+    - reflector B
+
+It runs the plaintext "THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG" through the machine, and then runs the ciphertext through the machine with the same initial settings. They match, and the ciphertext is exactly the same as the Enigma machine implementation provided here: http://enigmaco.de/enigma/enigma.swf.
