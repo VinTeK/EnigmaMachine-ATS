@@ -3,13 +3,12 @@ Compiles successfully and runs normally.
 Calling machine_create() produces a machine with an unchanged plugboard, rotors of types I, II, and III, and a reflector of type B.
 
 ---
-Notes on my Enigma implementation
+Notes on implementation
 ---
 
 My implementation behaves almost identically to the original Enigma machine. It has presets for the original rotor types I, II, III, IV, and V and reflector types B and C.
 
-
-Double stepping mechanism implemented for three rotor machines.
+The double stepping mechanism implemented only for three rotor machines.
 
 ---
 Using the provided test program
