@@ -1,8 +1,3 @@
-NOTE: This version is slightly late but includes a working double stepping mechanism for three rotor machines.
-
-If lateness is unacceptable, please disregard this version.
----
-
 Compiles successfully and runs normally.
 
 Calling machine_create() produces a machine with an unchanged plugboard, rotors of types I, II, and III, and a reflector of type B.
